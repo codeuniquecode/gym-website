@@ -1,0 +1,166 @@
+.wallpaper{
+    /* margin: 0px;
+    padding: 0px; */
+    background-image: url('bg.jpg');
+    background-size:cover;
+    height: 650px;
+    /* height: 100%;
+    width: 100%;
+    background-attachment: local; */
+
+}
+.bg{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    /* border: 2px solid red; */
+    display: inline-block;
+    top: 20px;
+    padding-left: 8px;
+}
+.middle .navbar{
+    padding-top: 17px;
+}
+.middle{
+    /* border: 2px solid green; */
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    
+    
+}
+.right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    right: 0px;
+    position: absolute;
+    top: 20px;
+    padding-right: 18px;
+    padding-top: 15px;
+   
+}
+.right  a{
+    text-decoration: none;
+      padding: 15px 30px; 
+        background-color: red; 
+        font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+    /* color: white; */
+}
+.right  a{
+    border: none;
+   
+    color: white; 
+   
+    border-radius: 25px;
+    letter-spacing: 1px;
+    font-size: large;
+    /* visibility: hidden; */
+    
+}
+.right  a:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    border: yellow;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color:rgb(240, 216, 139);
+}
+.logo img{
+    width: 115px;
+    height: 100px;
+    display: inline-block;
+}
+.logo div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    color:white;
+    text-align: center;
+    background-color: rgba(61, 18, 18, 0.863);
+    letter-spacing: 1px;
+    
+}
+.logo .color{
+    color: greenyellow;
+}
+.logo .color , div{
+    position: sticky;
+}
+.fit{
+    width: 115px;
+}
+/* .text{
+    border: 3px solid white;
+    height: 180px;
+    width: 250px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:190px ;
+    margin-left: 180px;
+} */
+.red{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: red;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 285px;
+    padding-left: 210px;
+}
+.white{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color:white;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 250px;
+}
+.message img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    margin-top: 15px;
+    /* margin-left: 15px; */
+    margin: auto;
+    
+}
+.message{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 35%;
+    text-align: justify;
+    background-color: black;
+    padding-top: 15px;
+}
+.message p{
+    text-align: center;
+    color: white;
+    /* display: inline; */
+   
+}
+
